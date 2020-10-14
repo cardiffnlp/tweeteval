@@ -14,3 +14,13 @@ If you use TweetEval in your research, please use the following `bib` entry.
   year={2020}
 }
 ```
+# License
+
+TweetEval is released without any restrictions but restrictions may apply to individual tasks (which are derived from existing datasets) or Twitter (main data source). We refer users to the original licenses accompanying each dataset and Twitter regulations.
+
+
+# Citing TweetEval datasets
+
+If you use any of the TweetEval datasets, please cite their original publications:
+
+TODO: Add bibfiles for each task
