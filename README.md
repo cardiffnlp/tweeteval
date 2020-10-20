@@ -1,9 +1,14 @@
 # TweetEval
 This is the main repository of the TweetEval benchmark (reference paper here)
 
-# TweetEval: Datasets and format
+# TweetEval: Datasets
 
 TODO: Explain tasks and dataset formats
+
+# TweetEval: Leaderboard
+
+TODO: Add table with leaderboard
+
 
 # Evaluating your system
 
