@@ -1,6 +1,13 @@
 # TweetEval
 TweetEval repository
 
+# TweetEval: Datasets and format
+
+TODO: Explain tasks and dataset formats
+
+# Evaluating your system
+
+For evaluating your system, you simply need a prediction file with the same format as the output example XXX. This is, you would need a prediction file for each task......
 
 # Citing TweetEval
 
