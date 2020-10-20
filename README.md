@@ -1,5 +1,5 @@
 # TweetEval
-TweetEval repository
+This is the main repository of the TweetEval benchmark (reference paper here)
 
 # TweetEval: Datasets and format
 
