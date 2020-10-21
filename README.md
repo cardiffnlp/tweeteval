@@ -1,12 +1,11 @@
 # TweetEval
-This is the main repository of the TweetEval benchmark (reference paper here)
+This is the main repository of the TweetEval benchmark (reference paper here, Findings of EMNLP). TweetEval consists of seven heterogenous tasks in Twitter, all framed as multi-class tweet classification. All tasks have been unified into the same benchmark, with each dataset presented in the same format with training, validation and test splits.
 
 # TweetEval: Datasets
 
-TODO: Explain tasks and dataset formats + add links to papers
+In the following we present the seven datasets of TweetEval, and its corresponding labels:
 
-
-- **Emotion Recognition**, SemEval 2018 (Affects in Tweets)
+- **Emotion Recognition**, SemEval 2018 (Affects in Tweets):
 
 - **Emoji Prediction**, SemEval 2018 (Emoji Prediction)
 
@@ -18,7 +17,9 @@ TODO: Explain tasks and dataset formats + add links to papers
 
 - **Sentiment Analysis**, SemEval 2017 (Sentiment Analysis in Twitter)
 
-- **Stance Detection**, SemEval 2016 (Detecting Stance in Tweets)
+- **Stance Detection***, SemEval 2016 (Detecting Stance in Tweets)
+
+* For stance there are five different target words (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
 
 # TweetEval: Leaderboard
 
