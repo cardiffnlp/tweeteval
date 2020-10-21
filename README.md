@@ -3,11 +3,27 @@ This is the main repository of the TweetEval benchmark (reference paper here)
 
 # TweetEval: Datasets
 
-TODO: Explain tasks and dataset formats
+TODO: Explain tasks and dataset formats + add links to papers
+
+
+- **Emotion Recognition**, SemEval 2018 (Affects in Tweets)
+
+- **Emoji Prediction**, SemEval 2018 (Emoji Prediction)
+
+- **Irony Detection**, SemEval 2018 (Irony Detection)
+
+- **Hate Speech Detection**, SemEval 2019 (Hateval)
+
+- **Offensive Language Identification**, SemEval 2019 (OffensEval)
+
+- **Sentiment Analysis**, SemEval 2017 (Sentiment Analysis in Twitter)
+
+- **Stance Detection**, SemEval 2016 (Detecting Stance in Tweets)
 
 # TweetEval: Leaderboard
 
 TODO: Add table with leaderboard
+
 
 
 # Evaluating your system
