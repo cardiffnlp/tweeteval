@@ -1,11 +1,16 @@
 # TweetEval
-This is the main repository of the TweetEval benchmark (reference paper here, Findings of EMNLP). TweetEval consists of seven heterogenous tasks in Twitter, all framed as multi-class tweet classification. All tasks have been unified into the same benchmark, with each dataset presented in the same format with training, validation and test splits.
+This is the repository for the _TweetEval_ benchmark[1]. _TweetEval_ consists of seven heterogenous tasks in Twitter, all framed as multi-class tweet classification. All tasks have been unified into the same benchmark, with each dataset presented in the same format and with fixed training, validation and test splits.
 
 # TweetEval: Datasets
 
 In the following we present the seven datasets of TweetEval, and its corresponding labels:
 
-- **Emotion Recognition**, SemEval 2018 (Affects in Tweets):
+- **Emotion Recognition**: _Mohammad, S., Bravo-Marquez, F., Salameh, M., & Kiritchenko, S. (2018, June). Semeval-2018 task 1: Affect in tweets. In Proceedings of the 12th international workshop on semantic evaluation (pp. 1-17)._
+
+  - [x] `anger`
+  - [x] `joy`
+  - [x] `sadness`
+  - [x] `optimism`
 
 - **Emoji Prediction**, SemEval 2018 (Emoji Prediction)
 
