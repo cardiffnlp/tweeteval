@@ -47,7 +47,7 @@ In the following we present the seven datasets of TweetEval, and its correspondi
   - [x] `neutral`
   - [x] `against`
 
-**Note**: For stance there are five different target words (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
+**Note***: For stance there are five different target words (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
 
 # TweetEval: Leaderboard
 
