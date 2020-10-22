@@ -58,6 +58,8 @@ TweetEval is released without any restrictions but restrictions may apply to ind
 If you use any of the TweetEval datasets, please cite their original publications:
 
 TODO: Add bibfiles for each task
+
+Hate Speech:
 ```
 @inproceedings{basile-etal-2019-semeval,
     title = "{S}em{E}val-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in {T}witter",
