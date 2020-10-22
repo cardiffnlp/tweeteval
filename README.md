@@ -7,17 +7,7 @@ In the following we present the seven datasets of TweetEval, and its correspondi
 
 - **Emotion Recognition**: [SemEval 2018 (Emotion Recognition)](https://www.aclweb.org/anthology/S18-1001/) - 4 labels: `anger`, `joy`,`sadness`, `optimism`
 
-- **Emoji Prediction**, [SemEval 2018 (Emoji Prediction)](https://www.aclweb.org/anthology/S18-1003.pdf) - 20 labels:
-
-  - [x] :smiley:
-  - [x] :heart_eyes:
-  - [x] :flushed:
-  
-  `...`
-  
-  - [x] :pray:
-  - [x] :+1:
-  - [x] :evergreen_tree:
+- **Emoji Prediction**, [SemEval 2018 (Emoji Prediction)](https://www.aclweb.org/anthology/S18-1003.pdf) - 20 labels: :smiley:, :heart_eyes:, :flushed: `...` :pray:, :+1:, :evergreen_tree:
 
 - **Irony Detection**, [SemEval 2018 (Irony Detection)](https://www.aclweb.org/anthology/S18-1005.pdf) - 2 labels:
   - [x] `irony`
