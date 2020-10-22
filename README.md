@@ -23,7 +23,7 @@ In the following we present the seven datasets of TweetEval, and its correspondi
 
 **Note***: For stance there are five different target words (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
 
-# TweetEval: Leaderboard
+# TweetEval: Leaderboard (Test set)
 
 | Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
@@ -34,7 +34,7 @@ In the following we present the seven datasets of TweetEval, and its correspondi
 | LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
 | SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
 
-If you would like to have your results added to the leaderboard you can either submit a pull request or send an email to any of the paper authors. Please also submit a reference to a paper describing the model.
+If you would like to have your results added to the leaderboard you can either submit a pull request or send an email to any of the paper authors with results and the predictions of your model. Please also submit a reference to a paper describing your approach.
 
 # Evaluating your system
 
