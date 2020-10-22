@@ -58,3 +58,23 @@ TweetEval is released without any restrictions but restrictions may apply to ind
 If you use any of the TweetEval datasets, please cite their original publications:
 
 TODO: Add bibfiles for each task
+```
+@inproceedings{basile-etal-2019-semeval,
+    title = "{S}em{E}val-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in {T}witter",
+    author = "Basile, Valerio  and
+      Bosco, Cristina  and
+      Fersini, Elisabetta  and
+      Nozza, Debora  and
+      Patti, Viviana  and
+      Rangel Pardo, Francisco Manuel  and
+      Rosso, Paolo  and
+      Sanguinetti, Manuela",
+    booktitle = "Proceedings of the 13th International Workshop on Semantic Evaluation",
+    year = "2019",
+    address = "Minneapolis, Minnesota, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/S19-2007",
+    doi = "10.18653/v1/S19-2007",
+    pages = "54--63"
+}
+```
