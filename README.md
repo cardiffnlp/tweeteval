@@ -24,7 +24,7 @@ In the following we present the seven datasets of TweetEval, and its correspondi
 
 - **Stance Detection***, SemEval 2016 (Detecting Stance in Tweets)
 
-* Note: For stance there are five different target words (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
+Note: For stance there are five different target words (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
 
 # TweetEval: Leaderboard
 
