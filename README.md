@@ -51,20 +51,13 @@ In the following we present the seven datasets of TweetEval, and its correspondi
 
 # TweetEval: Leaderboard
 
-|      |          | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL |
-|------|----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|
-| Val  | SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   |
-|      | FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 9   |
-|      | RoB-Bs   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 10  |
-|      | RoB-RT   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 11  |
-|      | RoB-Tw   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 12  |
-|||||||||||
-| Test | SVM      | 6     | 7       | 8    | 9     | 10        | 11        | 12     | 13  |
-|      | FastText | 7     | 8       | 9    | 10    | 11        | 12        | 13     | 14  |
-|      | RoB-Bs   | 8     | 9       | 10   | 11    | 12        | 13        | 14     | 15  |
-|      | RoB-RT   | 9     | 10      | 11   | 12    | 13        | 14        | 15     | 16  |
-|      | RoB-Tw   | 10    | 11      | 12   | 13    | 14        | 15        | 16     | 17  |
-
+| Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL |
+|----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|
+| SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   |
+| FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 9   |
+| RoB-Bs   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 10  |
+| RoB-RT   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 11  |
+| RoB-Tw   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 12  |
 
 # Evaluating your system
 
