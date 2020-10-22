@@ -5,11 +5,7 @@ This is the repository for the _TweetEval_ benchmark [1]. _TweetEval_ consists o
 
 In the following we present the seven datasets of TweetEval, and its corresponding labels:
 
-- **Emotion Recognition**: [SemEval 2018 (Emotion Recognition)](https://www.aclweb.org/anthology/S18-1001/) - 4 labels:
-  - [x] `anger`
-  - [x] `joy`
-  - [x] `sadness`
-  - [x] `optimism`
+- **Emotion Recognition**: [SemEval 2018 (Emotion Recognition)](https://www.aclweb.org/anthology/S18-1001/) - 4 labels: `anger`, `joy`,`sadness`, `optimism`
 
 - **Emoji Prediction**, [SemEval 2018 (Emoji Prediction)](https://www.aclweb.org/anthology/S18-1003.pdf) - 20 labels:
 
