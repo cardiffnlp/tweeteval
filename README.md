@@ -1,5 +1,5 @@
 # TweetEval
-This is the repository for the _TweetEval_ benchmark[1]. _TweetEval_ consists of seven heterogenous tasks in Twitter, all framed as multi-class tweet classification. All tasks have been unified into the same benchmark, with each dataset presented in the same format and with fixed training, validation and test splits.
+This is the repository for the _TweetEval_ benchmark [1]. _TweetEval_ consists of seven heterogenous tasks in Twitter, all framed as multi-class tweet classification. All tasks have been unified into the same benchmark, with each dataset presented in the same format and with fixed training, validation and test splits.
 
 # TweetEval: Datasets
 
