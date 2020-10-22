@@ -1,0 +1,4 @@
+0	anger
+1	joy
+2	optimism
+3	sadness

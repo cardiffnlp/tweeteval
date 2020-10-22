@@ -1,0 +1,2 @@
+0	offensive
+1	not-offensive

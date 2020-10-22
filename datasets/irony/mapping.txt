@@ -1,0 +1,2 @@
+0	non_irony
+1	irony
