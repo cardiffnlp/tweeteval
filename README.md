@@ -34,7 +34,7 @@ In the following we present the seven datasets of TweetEval, and its correspondi
 | LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
 | SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
 
-
+If you would like to have your results added to the leaderboard you can either submit a pull request or send an email to any of the paper authors. Please also submit a reference to a paper describing the model.
 
 # Evaluating your system
 
