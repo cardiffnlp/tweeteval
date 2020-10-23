@@ -25,9 +25,9 @@ These are the seven datasets of TweetEval, and its corresponding labels (more de
 
 | Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
-| RoB-RT   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 11  | Barbieri et al. (2020) |
-| RoB-Tw   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 12  | - |
-| RoB-Bs   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 10  | - |
+| RoB-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 11  | Barbieri et al. (2020) |
+| RoB-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 12  | - |
+| RoB-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 10  | - |
 | FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 9   | - |
 | LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
 | SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
