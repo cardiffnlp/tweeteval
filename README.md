@@ -10,11 +10,9 @@ In the following we present the seven datasets of TweetEval, and its correspondi
 - **Emoji Prediction**, [SemEval 2018 (Emoji Prediction)](https://www.aclweb.org/anthology/S18-1003.pdf) - 20 labels: :heart:, :heart_eyes:, :joy: `...` :evergreen_tree:, :camera:, :stuck_out_tongue_winking_eye:
 
 - **Irony Detection**, [SemEval 2018 (Irony Detection)](https://www.aclweb.org/anthology/S18-1005.pdf) - 2 labels: `irony`, `not irony`
-  
 
 - **Hate Speech Detection**, [SemEval 2019 (Hateval)](https://www.aclweb.org/anthology/S19-2007.pdf) - 2 labels: `hateful`, `not hateful`
   
-
 - **Offensive Language Identification**, [SemEval 2019 (OffensEval)](https://www.aclweb.org/anthology/S19-2010/) - 2 labels: `offensive`, `not offensive`
 
 - **Sentiment Analysis**, [SemEval 2017 (Sentiment Analysis in Twitter)](https://www.aclweb.org/anthology/S17-2088/) - 3 labels: `positive`, `neutral`, `negative`
@@ -39,6 +37,10 @@ If you would like to have your results added to the leaderboard you can either s
 # Evaluating your system
 
 For evaluating your system, you simply need a prediction file with the same format as the output example XXX. This is, you would need a prediction file for each task......
+
+# Pre-trained models and code
+
+Coming soon! Here we will release all the Twitter-trained RoBERTa models included in the paper and code to evaluate any pre-trained language model in _TweetEval_.
 
 # Citing TweetEval
 
