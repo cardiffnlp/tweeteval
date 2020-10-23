@@ -23,7 +23,7 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 
 # TweetEval: Leaderboard (Test set)
 
-| Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL | Reference |
+| Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL(TE) | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
 | RoB-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 11  | Barbieri et al. (2020) |
 | RoB-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 12  | - |
@@ -32,11 +32,35 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 | LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
 | SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
 
+**Note***: Check the reference paper for details on the official metrics for each task
+
 If you would like to have your results added to the leaderboard you can either submit a pull request or send an email to any of the paper authors with results and the predictions of your model. Please also submit a reference to a paper describing your approach.
 
 # Evaluating your system
 
-For evaluating your system, you simply need a prediction file with the same format as the output example XXX. This is, you would need a prediction file for each task......
+For evaluating your system, you simply need a individual predictions file for each of the tasks with the same format as the output examples in the predictions folder (one output label per line as per the original test file). 
+
+```bash
+python evaluation_script.py
+```
+The script takes the TweetEval gold test labels and the predictions from the "predictions" folder, but you can set this to suit your needs as optional parameters.
+
+### Parameters
+
+A number of optional parameters can be specified to your needs: 
+
+*--tweeteval_path*: Path to TweetEval datasets. Default: "./datasets/"
+
+*--predictions_path*: Path to predictions directory. Default: "./predictions/"
+
+*--task*: Use this to get single task detailed results ("emoji"|"emotion"|"hate"|"irony"|"offensive"|"sentiment"|"stance"). Default: ""
+
+Evaluation script sample usage with parameters:
+
+```bash
+python evaluation_script.py --tweeteval_path ./datasets --predictions_path ./predictions/ --task emoji
+```
+(this script would output the breakdown of the results for the emoji prediction task only)
 
 # Pre-trained models and code
 
