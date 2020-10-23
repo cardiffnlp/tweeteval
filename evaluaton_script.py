@@ -105,7 +105,7 @@ if __name__=="__main__":
 
     parser = argparse.ArgumentParser(description='TweetEval evaluation script.')
     
-    parser.add_argument('--tweeteval_path', default="./TweetEval/", type=str, help='Path to TweetEval dataset')
+    parser.add_argument('--tweeteval_path', default="./datasets/", type=str, help='Path to TweetEval datasets')
     parser.add_argument('--predictions_path', default="./predictions/", type=str, help='Path to predictions files')
     parser.add_argument('--task', default="", type=str, help='Indicate this parameter to get single task detailed results')
 
