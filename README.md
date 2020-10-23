@@ -78,7 +78,8 @@ If you use any of the TweetEval datasets, please cite their original publication
 ```
 @inproceedings{barbieri2018semeval,
   title={Semeval 2018 task 2: Multilingual emoji prediction},
-  author={Barbieri, Francesco and Camacho-Collados, Jose and Ronzano, Francesco and Espinosa-Anke, Luis and Ballesteros, Miguel and Basile, Valerio and Patti, Viviana and Saggion, Horacio},
+  author={Barbieri, Francesco and Camacho-Collados, Jose and Ronzano, Francesco and Espinosa-Anke, Luis and 
+    Ballesteros, Miguel and Basile, Valerio and Patti, Viviana and Saggion, Horacio},
   booktitle={Proceedings of The 12th International Workshop on Semantic Evaluation},
   pages={24--33},
   year={2018}
