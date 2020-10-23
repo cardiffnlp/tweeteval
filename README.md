@@ -45,11 +45,11 @@ For evaluating your system, you simply need a individual predictions file for ea
 ```bash
 python evaluation_script.py
 ```
-The script takes the TweetEval gold test labels and the predictions from the "predictions" folder by default, but you can set this to suit your needs as optional parameters.
+The script takes the TweetEval gold test labels and the predictions from the "predictions" folder by default, but you can set this to suit your needs as optional arguments.
 
-### Parameters
+### Optional arguments
 
-A number of optional parameters can be specified to your needs: 
+Three optional arguments can be modified: 
 
 *--tweeteval_path*: Path to TweetEval datasets. Default: *"./datasets/"*
 
