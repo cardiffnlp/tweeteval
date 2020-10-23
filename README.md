@@ -45,7 +45,7 @@ For evaluating your system, you simply need a individual predictions file for ea
 ```bash
 python evaluation_script.py
 ```
-The script takes the TweetEval gold test labels and the predictions from the "predictions" folder, but you can set this to suit your needs as optional parameters.
+The script takes the TweetEval gold test labels and the predictions from the "predictions" folder by default, but you can set this to suit your needs as optional parameters.
 
 ### Parameters
 
@@ -57,7 +57,7 @@ A number of optional parameters can be specified to your needs:
 
 *--task*: Use this to get single task detailed results *(emoji|emotion|hate|irony|offensive|sentiment|stance)*. Default: ""
 
-Evaluation script sample usage with parameters:
+Evaluation script sample usage from the terminal with parameters:
 
 ```bash
 python evaluation_script.py --tweeteval_path ./datasets/ --predictions_path ./predictions/ --task emoji
