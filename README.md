@@ -19,7 +19,7 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 
 - **Stance Detection***, [SemEval 2016 (Detecting Stance in Tweets)](https://www.aclweb.org/anthology/S16-1003/) - 3 labels: `favour`, `neutral`, `against`
 
-**Note***: For stance there are five different target words (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
+**Note***: For stance there are five different target topics (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
 
 # TweetEval: Leaderboard (Test set)
 
