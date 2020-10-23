@@ -3,7 +3,7 @@ This is the repository for the _TweetEval_ benchmark [1]. _TweetEval_ consists o
 
 # TweetEval: The Benchmark
 
-These are the seven datasets of TweetEval, and its corresponding labels (more details about the format in the [datasets](https://github.com/cardiffnlp/tweeteval/tree/main/datasets) directory):
+These are the seven datasets of TweetEval, with its corresponding labels (more details about the format in the [datasets](https://github.com/cardiffnlp/tweeteval/tree/main/datasets) directory):
 
 - **Emotion Recognition**: [SemEval 2018 (Emotion Recognition)](https://www.aclweb.org/anthology/S18-1001/) - 4 labels: `anger`, `joy`,`sadness`, `optimism`
 
