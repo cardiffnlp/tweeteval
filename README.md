@@ -25,12 +25,12 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 
 | Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL(TE) | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
-| RoB-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 11  | Barbieri et al. (2020) |
-| RoB-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 12  | - |
-| RoB-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 10  | - |
-| FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 9   | - |
-| LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
-| SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | - |
+| RoB-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 11  | TweetEval |
+| RoB-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 12  | TweetEval |
+| RoB-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 10  | TweetEval |
+| FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 9   | TweetEval |
+| LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | TweetEval |
+| SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 8   | TweetEval |
 
 **Note***: Check the reference paper for details on the official metrics for each task
 
