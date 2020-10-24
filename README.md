@@ -70,7 +70,7 @@ Coming soon! Here we will release all the Twitter-trained RoBERTa models include
 
 # Citing TweetEval
 
-If you use TweetEval in your research, please use the following `bib` entry.
+If you use TweetEval in your research, please use the following `bib` entry to cite the reference paper.
 
 ```
 @inproceedings{barbieri2020tweeteval,
