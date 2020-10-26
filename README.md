@@ -25,9 +25,9 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 
 | Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL(TE) | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
-| RoBERta-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 65.2  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
-| RoBERta-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 61.3  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
-| RoBERta-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 61.0  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| RoBERTa-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 65.2  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| RoBERTa-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 61.3  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| RoBERTa-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 61.0  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 58.1 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 56.5 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 53.5 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
