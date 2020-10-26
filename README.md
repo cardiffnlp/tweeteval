@@ -28,9 +28,9 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 | RoBERta-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 65.2  | TweetEval |
 | RoBERta-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 61.3  | TweetEval |
 | RoBERta-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 61.0  | TweetEval |
-| FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 58.1 TweetEval |
-| LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 56.5 TweetEval |
-| SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 53.5 TweetEval |
+| FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 58.1 | TweetEval |
+| LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 56.5 | TweetEval |
+| SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 53.5 | TweetEval |
 
 **Note***: Check the reference paper for details on the official metrics for each task
 
