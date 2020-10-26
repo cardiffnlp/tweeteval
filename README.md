@@ -25,7 +25,7 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 
 | Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL(TE) | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
-| RoBERTa-Retrained   | 31.4     | 78.5       | 52.3    | 61.7     | 80.5         | 72.6         | 69.3     | 65.2  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| RoBERTa-Retrained   | 31.4     | 78.5       | 52.3    | 61.7     | 80.5         | 72.6         | 69.3     | **65.2**  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | RoBERTa-Base   | 30.9     | 76.1       | 46.6    | 59.7     | 79.5         | 71.3         | 68      | 61.3  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | RoBERTa-Twitter   | 29.3     | 72.0       | 49.9    | 65.4     | 77.1         | 69.1        | 66.7     | 61.0  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | FastText | 25.8     | 65.2       | 50.6    | 63.1     | 73.4         | 62.9         | 65.4      | 58.1 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
