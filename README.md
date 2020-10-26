@@ -1,5 +1,5 @@
 # TweetEval
-This is the repository for the _TweetEval_ benchmark [1]. _TweetEval_ consists of seven heterogenous tasks in Twitter, all framed as multi-class tweet classification. All tasks have been unified into the same benchmark, with each dataset presented in the same format and with fixed training, validation and test splits.
+This is the repository for the [_TweetEval_ benchmark](https://arxiv.org/pdf/2010.12421.pdf) (Findings of EMNLP 2020). _TweetEval_ consists of seven heterogenous tasks in Twitter, all framed as multi-class tweet classification. All tasks have been unified into the same benchmark, with each dataset presented in the same format and with fixed training, validation and test splits.
 
 # TweetEval: The Benchmark
 
@@ -25,14 +25,14 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 
 | Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL(TE) | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
-| RoBERta-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 65.2  | TweetEval |
-| RoBERta-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 61.3  | TweetEval |
-| RoBERta-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 61.0  | TweetEval |
-| FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 58.1 | TweetEval |
-| LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 56.5 | TweetEval |
-| SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 53.5 | TweetEval |
+| RoBERta-Retrained   | 4     | 5       | 6    | 7     | 8         | 9         | 10     | 65.2  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| RoBERta-Base   | 3     | 4       | 5    | 6     | 7         | 8         | 9      | 61.3  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| RoBERta-Twitter   | 5     | 6       | 7    | 8     | 9         | 10        | 11     | 61.0  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| FastText | 2     | 3       | 4    | 5     | 6         | 7         | 8      | 58.1 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| LSTM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 56.5 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| SVM      | 1     | 2       | 3    | 4     | 5         | 6         | 7      | 53.5 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 
-**Note***: Check the reference paper for details on the official metrics for each task
+**Note***: Check the [reference paper](https://arxiv.org/pdf/2010.12421.pdf) for details on the official metrics for each task
 
 If you would like to have your results added to the leaderboard you can either submit a pull request or send an email to any of the paper authors with results and the predictions of your model. Please also submit a reference to a paper describing your approach.
 
@@ -70,7 +70,7 @@ Coming soon! Here we will release all the Twitter-trained RoBERTa models include
 
 # Citing TweetEval
 
-If you use TweetEval in your research, please use the following `bib` entry to cite the reference paper.
+If you use TweetEval in your research, please use the following `bib` entry to cite the [reference paper](https://arxiv.org/pdf/2010.12421.pdf).
 
 ```
 @inproceedings{barbieri2020tweeteval,
