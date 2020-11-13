@@ -70,7 +70,7 @@ You can download the best Twitter model (RoBERTa-retrained in the paper) from [H
 
 Additionally, we release all the models fine-tuned to the specific task. You can access to all models [here](https://huggingface.co/cardiffnlp).
 
-To know how to use the pre-trained models, you can check our Jupyter Notebook.
+To know how to use the pre-trained models, you can check our Jupyter Notebook including code.
 
 # Citing TweetEval
 
