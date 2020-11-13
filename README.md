@@ -66,7 +66,11 @@ python evaluation_script.py --tweeteval_path ./datasets/ --predictions_path ./pr
 
 # Pre-trained models and code
 
-Coming soon! Here we will release all the Twitter-trained RoBERTa models included in the paper and code to evaluate any pre-trained language model in _TweetEval_.
+You can download the best Twitter model (RoBERTa-retrained in the paper) from [HuggingFace](https://huggingface.co/cardiffnlp/twitter-roberta-base).
+
+Additionally, we release all the models fine-tuned to the specific task. You can access to all models [here](https://huggingface.co/cardiffnlp).
+
+To know how to use the pre-trained models, you can check our Jupyter Notebook.
 
 # Citing TweetEval
 
