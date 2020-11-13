@@ -66,11 +66,17 @@ python evaluation_script.py --tweeteval_path ./datasets/ --predictions_path ./pr
 
 # Pre-trained models and code
 
-You can download the best Twitter model (RoBERTa-retrained in the paper) from [HuggingFace](https://huggingface.co/cardiffnlp/twitter-roberta-base).
+You can download the best Twitter masked language model (RoBERTa-retrained in the paper) from 🤗HuggingFace [here](https://huggingface.co/cardiffnlp/twitter-roberta-base). We also provide task-specific models:
 
-Additionally, we release all the models fine-tuned to the specific task. You can access to all models [here](https://huggingface.co/cardiffnlp).
+- [Twitter-RoBERTa-emoji](https://huggingface.co/cardiffnlp/twitter-roberta-base-emoji)
+- [Twitter-RoBERTa-emotion](https://huggingface.co/cardiffnlp/twitter-roberta-base-emotion)
+- [Twitter-RoBERTa-hate](https://huggingface.co/cardiffnlp/twitter-roberta-base-hate)
+- [Twitter-RoBERTa-irony](https://huggingface.co/cardiffnlp/twitter-roberta-base-irony)
+- [Twitter-RoBERTa-offensive](https://huggingface.co/cardiffnlp/twitter-roberta-base-offensive)
+- [Twitter-RoBERTa-sentiment](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment)
+- Twitter-RoBERTa-stance - Coming soon
 
-To know how to use the pre-trained models, you can check our Jupyter Notebook including code.
+To know how to use the pre-trained models, you can check our [Google Colab Notebook](https://colab.research.google.com/drive/1DGLokrL4QndVI88ArlknmgCiHgb5zK1J?authuser=1#scrollTo=AZq3Q5kKYpTg), with sample code for masked language modeling and extracting embeddings from tweets.
 
 # Citing TweetEval
 
