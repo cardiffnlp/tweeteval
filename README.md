@@ -38,7 +38,7 @@ If you would like to have your results added to the leaderboard you can either s
 
 # Evaluating your system
 
-For evaluating your system, you simply need a individual predictions file for each of the tasks. The format of the predictions file should be the same as the output examples in the predictions folder (one output label per line as per the original test file). The predictions included as an example correspond to the best model evaluated in the paper, i.e., RoBERTa re-trained on Twitter (RoB-Rt in the paper).  
+For evaluating your system, you simply need an individual predictions file for each of the tasks. The format of the predictions file should be the same as the output examples in the predictions folder (one output label per line as per the original test file). The predictions included as an example in this repo correspond to the best model evaluated in the paper, i.e., RoBERTa re-trained on Twitter (RoB-Rt in the paper).  
 
 ### Example usage
 
