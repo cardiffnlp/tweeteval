@@ -76,7 +76,7 @@ You can download the best Twitter masked language model (RoBERTa-retrained in th
 - [Twitter-RoBERTa-sentiment](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment)
 - Twitter-RoBERTa-stance - Coming soon
 
-To know how to use the pre-trained models, you can check our [Google Colab Notebook](https://colab.research.google.com/drive/18cNn4cJ-bAi-Luiqi8V6c09Tj-iiX0oG?authuser=2), with sample code for masked language modeling, extracting embeddings from tweets and tweet classification.
+To know how to use the pre-trained models, you can check our [Google Colab Notebook](https://colab.research.google.com/drive/18cNn4cJ-bAi-Luiqi8V6c09Tj-iiX0oG), with sample code for masked language modeling, extracting embeddings from tweets and tweet classification.
 
 # Citing TweetEval
 
