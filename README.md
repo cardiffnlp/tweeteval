@@ -81,6 +81,9 @@ You can download the best Twitter masked language model (RoBERTa-retrained in th
 
 To know how to use the pre-trained models, you can check our [Google Colab Notebook](https://colab.research.google.com/drive/18cNn4cJ-bAi-Luiqi8V6c09Tj-iiX0oG), with sample code for masked language modeling, extracting embeddings from tweets and tweet classification.
 
+**NEW!** A multilingual language model trained on Twitter for 30+ languages (XLM-T) is now available [here](https://github.com/cardiffnlp/xlm-t)
+
+
 # Citing TweetEval
 
 If you use TweetEval in your research, please use the following `bib` entry to cite the [reference paper](https://arxiv.org/pdf/2010.12421.pdf).
