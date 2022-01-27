@@ -5,19 +5,19 @@ This is the repository for the [_TweetEval_ benchmark (Findings of EMNLP 2020)](
 
 These are the seven datasets of TweetEval, with its corresponding labels (more details about the format in the [datasets](https://github.com/cardiffnlp/tweeteval/tree/main/datasets) directory):
 
-- **Emotion Recognition**: [SemEval 2018 (Emotion Recognition)](https://www.aclweb.org/anthology/S18-1001/) - 4 labels: `anger`, `joy`,`sadness`, `optimism`
+- **Emotion Recognition**: [SemEval 2018 - Emotion Recognition](https://www.aclweb.org/anthology/S18-1001/) (Mohammad et al., 2018) - 4 labels: `anger`, `joy`,`sadness`, `optimism`
 
-- **Emoji Prediction**, [SemEval 2018 (Emoji Prediction)](https://www.aclweb.org/anthology/S18-1003.pdf) - 20 labels: :heart:, :heart_eyes:, :joy:  `...` :evergreen_tree:, :camera:, :stuck_out_tongue_winking_eye:
+- **Emoji Prediction**, [SemEval 2018 - Emoji Prediction](https://www.aclweb.org/anthology/S18-1003.pdf) (Barbieri et al., 2018) - 20 labels: :heart:, :heart_eyes:, :joy:  `...` :evergreen_tree:, :camera:, :stuck_out_tongue_winking_eye:
 
-- **Irony Detection**, [SemEval 2018 (Irony Detection)](https://www.aclweb.org/anthology/S18-1005.pdf) - 2 labels: `irony`, `not irony`
+- **Irony Detection**, [SemEval 2018 - Irony Detection](https://www.aclweb.org/anthology/S18-1005.pdf) (Van Hee et al., 2018) - 2 labels: `irony`, `not irony`
 
-- **Hate Speech Detection**, [SemEval 2019 (Hateval)](https://www.aclweb.org/anthology/S19-2007.pdf) - 2 labels: `hateful`, `not hateful`
+- **Hate Speech Detection**, [SemEval 2019 - Hateval](https://www.aclweb.org/anthology/S19-2007.pdf) (Basile et al., 2019) - 2 labels: `hateful`, `not hateful`
   
-- **Offensive Language Identification**, [SemEval 2019 (OffensEval)](https://www.aclweb.org/anthology/S19-2010/) - 2 labels: `offensive`, `not offensive`
+- **Offensive Language Identification**, [SemEval 2019 - OffensEval](https://www.aclweb.org/anthology/S19-2010/) (Zampieri et al., 2019)- 2 labels: `offensive`, `not offensive`
 
-- **Sentiment Analysis***, [SemEval 2017 (Sentiment Analysis in Twitter)](https://www.aclweb.org/anthology/S17-2088/) - 3 labels: `positive`, `neutral`, `negative`
+- **Sentiment Analysis***, [SemEval 2017 - Sentiment Analysis in Twitter](https://www.aclweb.org/anthology/S17-2088/) (Rosenthal et al., 2019) - 3 labels: `positive`, `neutral`, `negative`
 
-- **Stance Detection***, [SemEval 2016 (Detecting Stance in Tweets)](https://www.aclweb.org/anthology/S16-1003/) - 3 labels: `favour`, `neutral`, `against`
+- **Stance Detection***, [SemEval 2016 - Detecting Stance in Tweets](https://www.aclweb.org/anthology/S16-1003/) (Mohammad et al., 2016) - 3 labels: `favour`, `neutral`, `against`
 
 **Note 1***: For stance there are five different target topics (Abortion, Atheism, Climate change, Feminism and Hillary Clinton), each of which contains its own training, validation and test data.
 
