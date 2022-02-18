@@ -27,7 +27,8 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 
 | Model | Emoji | Emotion | Hate | Irony | Offensive | Sentiment | Stance | ALL(TE) | Reference |
 |----------|------:|--------:|-----:|------:|----------:|----------:|-------:|----:|---------|
-| BERTweet   | 33.4     | 79.3       | 56.4    | 82.1     | 79.5         | 73.4         | 71.2     | **67.9**  | [BERTweet](https://arxiv.org/abs/2005.10200) |
+| BERTweet   | 33.4     | 79.3       | **56.4**    | **82.1**     | 79.5         | **73.4**         | 71.2     | **67.9**  | [BERTweet](https://arxiv.org/abs/2005.10200) |
+| TimeLMs-2021   | **34.0**     | 80.2      | 55.1    | 64.5     | **82.2**         | **73.4**         | **72.9**     | 66.1  | [TimeLMs](https://arxiv.org/abs/2202.03829) |
 | RoBERTa-Retrained   | 31.4     | 78.5       | 52.3    | 61.7     | 80.5         | 72.8         | 69.3     | 65.2  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | RoBERTa-Base   | 30.9     | 76.1       | 46.6    | 59.7     | 79.5         | 71.3         | 68      | 61.3  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | RoBERTa-Twitter   | 29.3     | 72.0       | 49.9    | 65.4     | 77.1         | 69.1        | 66.7     | 61.4  | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
