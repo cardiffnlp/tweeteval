@@ -84,6 +84,8 @@ To know how to use the pre-trained models, you can check our [Google Colab Noteb
 
 **NEW!** A multilingual language model trained on Twitter for 30+ languages (XLM-T) is now available [here](https://github.com/cardiffnlp/xlm-t)
 
+**NEWx2!** You can now test TweetEval models as part of the [TweetNLP platform](https://tweetnlp.org).
+
 
 # Citing TweetEval
 
