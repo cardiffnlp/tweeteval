@@ -35,10 +35,14 @@ These are the seven datasets of TweetEval, with its corresponding labels (more d
 | FastText | 25.8     | 65.2       | 50.6    | 63.1     | 73.4         | 62.9         | 65.4      | 58.1 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | LSTM      | 24.7     | 66.0       | 52.6    | 62.8     | 71.7         | 58.3         | 59.4      | 56.5 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
 | SVM      | 29.3     | 64.7       | 36.7    | 61.7     | 52.3         | 62.9         | 67.3      | 53.5 | [TweetEval](https://arxiv.org/pdf/2010.12421.pdf) |
+| Presonance-TweetEmotion (emotion only) | - | 81.5 | - | - | - | - | - | - | [Technical report](https://huggingface.co/saa938/presonance-goemotions-ensemble/resolve/91ac4c028f165deb4674186c60b103ad67e8726e/benchmarks/tweeteval-20261116/report.pdf) |
 
 **Note***: Check the [reference paper](https://arxiv.org/pdf/2010.12421.pdf) for details on the official metrics for each task
 
 If you would like to have your results added to the leaderboard you can either submit a pull request or send an email to any of the paper authors with results and the predictions of your model. Please also submit a reference to a paper describing your approach.
+
+
+Presonance-TweetEmotion evaluates only the emotion task (full score 81.5166 macro-F1). It combines released external classifiers with DEV-fitted calibration; the other six tasks and ALL(TE) are not evaluated. The report includes controls, uncertainty and the stronger newer provider reference (81.7378), so this entry is not a current-SOTA claim.
 
 # Evaluating your system
 
